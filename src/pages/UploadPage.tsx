@@ -72,7 +72,7 @@ export const UploadPage = () => {
           </div>
           <h2 className="mt-4 text-lg font-semibold text-ink">Upload from file or drag it here</h2>
           <p className="mt-2 text-sm leading-7 text-slate-600">
-            MediVoice accepts a photo of a paper report or a PDF from another clinic.
+            MediMosaic accepts a photo of a paper report or a PDF from another clinic.
             If you are unsure, you can start with the large buttons below.
           </p>
           <p className="mt-4 rounded-2xl bg-white px-4 py-3 text-sm text-slate-500 shadow-sm">
@@ -162,7 +162,7 @@ export const UploadPage = () => {
         <section className="surface-card p-5">
           <p className="text-sm font-semibold text-ink">Uploading and organising your document</p>
           <p className="mt-2 text-sm leading-6 text-slate-600">
-            MediVoice is extracting the key values and preparing a summary.
+            MediMosaic is extracting the key values and preparing a summary.
           </p>
           <div className="mt-4 h-3 overflow-hidden rounded-full bg-slate-100">
             <div className="h-full w-3/4 animate-pulse rounded-full bg-primary-600" />

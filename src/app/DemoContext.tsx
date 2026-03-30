@@ -78,7 +78,7 @@ export const DemoProvider = ({ children }: PropsWithChildren) => {
       kind === "photo"
         ? {
             title: "Photo uploaded successfully",
-            body: "Your report is ready. MediVoice has organised the key numbers and prepared a plain-language summary.",
+            body: "Your report is ready. MediMosaic has organised the key numbers and prepared a plain-language summary.",
           }
         : {
             title: "PDF uploaded successfully",

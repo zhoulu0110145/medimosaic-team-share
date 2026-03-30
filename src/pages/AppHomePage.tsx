@@ -178,7 +178,7 @@ export const AppHomePage = () => {
           <div className="flex-1">
             <p className="text-sm font-semibold text-ink">Shared care, under your control</p>
             <p className="mt-2 text-sm leading-6 text-slate-600">
-              You choose what to share with family or doctors. MediVoice keeps the summary,
+              You choose what to share with family or doctors. MediMosaic keeps the summary,
               trend snapshot, and notes together so each share is clear and focused.
             </p>
             <Link className="mt-4 primary-button w-full" to={to(`/share?target=${shareTarget}`)}>

@@ -73,7 +73,7 @@ export const Header = () => {
           <div className="rounded-2xl bg-primary-700 p-2 text-white">
             <Sparkles className="h-4 w-4" />
           </div>
-          MediVoice
+          MediMosaic
         </Link>
         {isSimple ? (
           <div className="w-9" />

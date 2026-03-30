@@ -104,7 +104,7 @@ export const DashboardPage = () => {
       />
 
       <HealthStatCard
-        detail="Blood pressure is a little above target today. MediVoice keeps the trend visible without sounding an alarm."
+        detail="Blood pressure is a little above target today. MediMosaic keeps the trend visible without sounding an alarm."
         href="/timeline"
         icon={HeartPulse}
         status={latestPressure?.status ?? "attention"}

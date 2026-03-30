@@ -1,6 +1,6 @@
-# MediVoice Prototype
+# MediMosaic Prototype
 
-MediVoice is a mobile-first biomedical web prototype for a course presentation. It demonstrates how a patient and caregiver can upload fragmented health documents, understand medical results in plain language, track trends over time, add notes, and share a concise summary package.
+MediMosaic is a mobile-first biomedical web prototype for a course presentation. It demonstrates how a patient and caregiver can upload fragmented health documents, understand medical results in plain language, track trends over time, add notes, and share a concise summary package.
 
 The prototype is frontend-only. All content uses realistic but fictional mock data based on the project PDFs.
 
@@ -49,13 +49,13 @@ What has already been prepared in this repo:
 1. Push this repo to GitHub.
 2. Go to [Vercel](https://vercel.com/) and sign in.
 3. Click `Add New...` → `Project`.
-4. Import the GitHub repository for `MediVoice`.
+4. Import the GitHub repository for `MediMosaic`.
 5. Vercel should detect `Vite` automatically.
 6. Confirm these settings if prompted:
    - Build Command: `npm run build`
    - Output Directory: `dist`
    - Install Command: `npm install`
-7. If Vercel asks for a project name, use `medivoice-prototype` or `medivoice`.
+7. If Vercel asks for a project name, use `medimosaic-prototype` or `medimosaic`.
 8. Click `Deploy`.
 
 After deployment:
@@ -65,8 +65,8 @@ After deployment:
 
 If you previously linked this folder to an older Vercel project name, you can either:
 
-- rename the project in the Vercel dashboard to `medivoice-prototype`, or
-- create a new Vercel project with the `MediVoice` name
+- rename the project in the Vercel dashboard to `medimosaic-prototype`, or
+- create a new Vercel project with the `MediMosaic` name
 
 ### Option B: Deploy with the Vercel CLI
 
@@ -91,7 +91,7 @@ vercel
 4. Suggested answers during the first setup:
    - Set up and deploy: `Y`
    - Link to existing project: `N`
-   - Project name: `medivoice-prototype`
+   - Project name: `medimosaic-prototype`
    - Directory: `./`
 
 5. For a production deployment later, run:
@@ -134,7 +134,7 @@ If you want the cleaner day-to-day experience without presentation support or de
 
 - `/app`
 
-This version now starts from a simple user home page, then links into the core flow:
+This version redirects straight into the core user flow at `/app/dashboard`, then continues through:
 
 - dashboard
 - upload

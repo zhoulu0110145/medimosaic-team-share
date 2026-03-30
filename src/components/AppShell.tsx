@@ -17,7 +17,7 @@ export const AppShell = ({ children }: PropsWithChildren) => {
             <div className="surface-card p-6">
               <p className="section-kicker">Demo support</p>
               <h2 className="mt-3 text-3xl font-display font-semibold text-ink">
-                MediVoice presentation build
+                MediMosaic presentation build
               </h2>
               <p className="mt-3 text-sm leading-7 text-slate-600">
                 This mobile-first prototype follows the PDFs closely: fragmented record upload,

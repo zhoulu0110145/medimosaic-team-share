@@ -86,7 +86,7 @@ export interface SharePackage {
   highlights: string[];
 }
 
-export const productName = "MediVoice";
+export const productName = "MediMosaic";
 
 export const valueProposition =
   "One calm place to upload, understand, track, and share health records across visits.";
@@ -307,7 +307,7 @@ export const timelineEvents: TimelineEvent[] = [
     id: "t-1",
     date: "2026-03-18T09:20:00+08:00",
     title: "New lab report uploaded",
-    description: "Photo of March diabetes and blood pressure review was added to MediVoice.",
+    description: "Photo of March diabetes and blood pressure review was added to MediMosaic.",
     type: "report",
     status: "attention",
     route: "/report/lab-mar-2026",
@@ -390,7 +390,7 @@ export const sharePackages: Record<"caregiver" | "doctor", SharePackage> = {
 export const uploadMessages = {
   successPhoto: {
     title: "Photo uploaded successfully",
-    body: "Your report is ready. MediVoice has organised the key numbers and prepared a plain-language summary.",
+    body: "Your report is ready. MediMosaic has organised the key numbers and prepared a plain-language summary.",
   },
   successPdf: {
     title: "PDF uploaded successfully",
@@ -407,7 +407,7 @@ export const metaphorPillars = [
     title: "The Scribe",
     role: "Quietly organises records",
     description:
-      "MediVoice accepts photos and PDFs with as little friction as possible so records from different places end up in one calm ledger.",
+      "MediMosaic accepts photos and PDFs with as little friction as possible so records from different places end up in one calm ledger.",
   },
   {
     title: "The Translator",

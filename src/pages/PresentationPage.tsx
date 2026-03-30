@@ -23,7 +23,7 @@ const patientRoute = [
   },
   {
     label: "Read a plain-language summary",
-    detail: "MediVoice explains blood sugar and blood pressure results using simple words.",
+    detail: "MediMosaic explains blood sugar and blood pressure results using simple words.",
   },
   {
     label: "Understand the chart colours",
@@ -170,7 +170,7 @@ export const PresentationPage = () => (
       </PresentationSection>
 
       <PresentationSection
-        description="MediVoice is a patient-centred mobile-first web prototype that aggregates health documents across institutions, accepts photos and PDFs, displays home monitoring data, and explains results in supportive everyday language."
+        description="MediMosaic is a patient-centred mobile-first web prototype that aggregates health documents across institutions, accepts photos and PDFs, displays home monitoring data, and explains results in supportive everyday language."
         eyebrow="Design idea"
         id="idea"
         title="What the prototype does"

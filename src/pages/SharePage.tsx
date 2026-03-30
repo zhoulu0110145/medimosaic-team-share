@@ -75,7 +75,7 @@ export const SharePage = () => {
       <section className="surface-card p-5">
         <p className="text-sm font-semibold text-ink">What will be shared</p>
         <p className="mt-2 text-sm leading-6 text-slate-600">
-          MediVoice only shares the selected summary package. The preview below makes the
+          MediMosaic only shares the selected summary package. The preview below makes the
           contents visible before anything is sent.
         </p>
       </section>
